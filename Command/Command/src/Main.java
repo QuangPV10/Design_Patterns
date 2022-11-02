@@ -9,12 +9,12 @@ public class Main {
 		RemoteControl rc = new RemoteControl();
 		Light light = new Light();
 		Command c1 = new CommandOff(light);
-        Command c2 = new CommandOn(light);
-        rc.SetCommand(c1);
-        rc.PressButton();
+		Command c2 = new CommandOn(light);
+		rc.SetCommand(c1);
+		rc.PressButton();
 
-        rc.SetCommand(c2);
-        rc.PressButton();
+		rc.SetCommand(c2);
+		rc.PressButton();
 	}
 
 }
