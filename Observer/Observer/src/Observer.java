@@ -1,4 +1,4 @@
 public interface Observer {
-	void update(User user);
+	void update(Message message);
 
 }

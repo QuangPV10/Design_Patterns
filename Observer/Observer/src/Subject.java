@@ -3,6 +3,6 @@ public interface Subject {
 
 	void detach(Observer observer);
 
-	void notifyAllObserver();
+	void notifyAllObserver(Message message);
 
 }
